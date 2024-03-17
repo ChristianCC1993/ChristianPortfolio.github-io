@@ -3263,6 +3263,7 @@ input, select, textarea {
 				margin: 5rem 0 0 2rem;
 				padding: 8rem 4rem 1rem 1rem ;
 				width: 100%;
+				
 			}
 		
 			#intro .texto .texto1{
@@ -3434,22 +3435,60 @@ input, select, textarea {
 				padding: 8rem 4rem 1rem 1rem ;
 				width: 100%;
 			}
+
+			#main .portafolio {
+				padding: 0 0 0 0;
+			}
 		
-			#main .portafolio .reporte1,
-			#main .portafolio .reporte2 {
+			#main .portafolio article {
 				display: flex;
 				flex-direction: column;
-				/*flex-direction: row-reverse;*/
 			}
 
-			#main .portafolio .reporte1 .contenedor_imagen{
-				padding: 0.5rem;
+			#main .portafolio article .contenedor_imagen{
+				padding: 0.8rem;
 				width: 100%;
 				height: auto;
+				order: 1;
 			}
 
+			#main .portafolio article .info {
+				order: 2;
+			}
 
-	
+			#main .portafolio article .info .titulo {
+				color: white;
+				font-size: 1.5rem;
+				padding-bottom: 1rem;
+			}
+			
+			#main .portafolio article .info .descripcion {
+				color: white;
+				font-size: 0.8rem;
+				line-height: 2;
+				font-weight: lighter;
+			}
+
+			#main .portafolio article .info .titulo {
+				order: 2;
+			}
+
+			#main .portafolio article .info .descripcion {
+				order: 3;
+			}
+
+			#main .portafolio article .info .portafolio_tags {
+				order: 1;
+			}
+			
+			#main .portafolio article .info .buttons-container {
+				order: 4;
+			}
+
+			#main .portafolio .reporte2 .info {
+				padding-left: 0rem;
+			}
+
 		}
 
 		#main input[type="submit"],
@@ -3497,6 +3536,15 @@ input, select, textarea {
 
 		#main .sobre_mi {
 			background-color: #12181f;
+
+			align-items: center;
+			color: #ffffff;
+			flex-direction: column;
+			justify-content: space-between;
+			line-height: 3rem;
+			margin: 5rem 0 0 2rem;
+			padding: 0 ;
+			width: 100%;
 		}
 
 		#main .sobre_mi .cabecera .texto1{ /* Cabecera */
@@ -3559,7 +3607,58 @@ input, select, textarea {
 			color: rgb(42, 165, 73);
 		}
 
-		
+		@media screen and (max-width: 450px) {
+	
+			#main .sobre_mi {
+				align-items: center;
+				color: #ffffff;
+				flex-direction: column;
+				justify-content: space-between;
+				line-height: 3rem;
+				width: 100%;	
+				box-sizing: border-box;	
+				background-color:transparent;
+				line-height: 3rem;
+				margin: 5rem 0 0 0rem;
+			}
+
+			#main .sobre_mi .sobre_mi_contenido .sobre_mi-wrapper {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#main .sobre_mi .sobre_mi_img img{
+				width: 16rem;
+				height: auto;
+				padding-top: 2rem;
+			}
+
+			#main .sobre_mi .sobre_mi_contenido{
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+			}
+
+			#main .sobre_mi .cabecera {
+				padding-top: 3rem;
+			}
+
+			#main .sobre_mi .sobre_mi_resto {
+				padding-left: 0rem;
+				align-items: left;
+			}
+
+			#main .sobre_mi .sobre_mi_resto .sobre_mi_texto ,
+			#main .sobre_mi .sobre_mi_resto .sobre_mi_texto2 ,
+			#main .sobre_mi .sobre_mi_resto .sobre_mi_tecnologias {
+				color: white;
+				font-size: 0.8rem;
+				line-height: 2;
+				font-weight: lighter;
+			}
+
+		}
 
 
         /*****************************************/
@@ -3773,4 +3872,11 @@ input, select, textarea {
 	#footer .footer_derecho .otros_contactos {
 		text-align: left;
 	}
+
+	@media screen and (max-width: 450px) {
+		#footer {
+			margin: 0;
+		}		
+	}
+
 
