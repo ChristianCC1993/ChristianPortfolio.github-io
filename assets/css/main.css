@@ -3542,7 +3542,7 @@ input, select, textarea {
 			flex-direction: column;
 			justify-content: space-between;
 			line-height: 3rem;
-			margin: 5rem 0 0 3rem;
+			margin: 5rem 0 0 0;
 			padding: 0 ;
 			width: 100%;
 		}
@@ -3619,7 +3619,7 @@ input, select, textarea {
 				box-sizing: border-box;	
 				background-color:transparent;
 				line-height: 3rem;
-				margin: 5rem 0 0 3rem;
+				margin: 5rem 0 0 0;
 			}
 
 			#main .sobre_mi .sobre_mi_contenido .sobre_mi-wrapper {
