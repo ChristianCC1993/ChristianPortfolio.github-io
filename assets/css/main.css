@@ -3878,6 +3878,7 @@ input, select, textarea {
 			display: flex;
 			justify-content: space-between;
 			flex-direction: column;
+			padding: 2rem 2rem 0 0;
 		}	
 		
 		#footer .footer_izquierdo .datos_contacto,
