@@ -3229,7 +3229,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) and (min-width: 460px) {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
@@ -3263,7 +3263,7 @@ input, select, textarea {
 				margin: 5rem 0 0 2rem;
 				padding: 8rem 4rem 1rem 1rem ;
 				width: 100%;
-				
+				min-height: 50vh;
 			}
 		
 			#intro .texto .texto1{
@@ -3432,7 +3432,7 @@ input, select, textarea {
 				justify-content: space-between;
 				line-height: 3rem;
 				margin: 5rem 0 0 2rem;
-				padding: 8rem 4rem 1rem 1rem ;
+				padding: 0rem 4rem 1rem 1rem ;
 				width: 100%;
 			}
 
