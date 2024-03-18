@@ -3260,7 +3260,7 @@ input, select, textarea {
 				flex-direction: column;
 				justify-content: space-between;
 				line-height: 3rem;
-				margin: 5rem 0 0 5rem;
+				margin: 5rem 0 0 3rem;
 				padding: 8rem 4rem 1rem 1rem ;
 				width: 100%;
 				min-height: 70vh;
@@ -3431,7 +3431,7 @@ input, select, textarea {
 				flex-direction: column;
 				justify-content: space-between;
 				line-height: 3rem;
-				margin: 5rem 0 0 5rem;
+				margin: 5rem 0 0 3rem;
 				padding: 0rem 4rem 1rem 1rem ;
 				width: 100%;
 			}
@@ -3542,7 +3542,7 @@ input, select, textarea {
 			flex-direction: column;
 			justify-content: space-between;
 			line-height: 3rem;
-			margin: 5rem 0 0 2rem;
+			margin: 5rem 0 0 3rem;
 			padding: 0 ;
 			width: 100%;
 		}
@@ -3619,7 +3619,7 @@ input, select, textarea {
 				box-sizing: border-box;	
 				background-color:transparent;
 				line-height: 3rem;
-				margin: 5rem 0 0 0rem;
+				margin: 5rem 0 0 3rem;
 			}
 
 			#main .sobre_mi .sobre_mi_contenido .sobre_mi-wrapper {
