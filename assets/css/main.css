@@ -3618,7 +3618,6 @@ input, select, textarea {
 				width: 100%;	
 				box-sizing: border-box;	
 				background-color:transparent;
-				line-height: 3rem;
 				margin: 5rem 0 0 0;
 			}
 
@@ -3876,7 +3875,27 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 		#footer {
 			margin: 0;
-		}		
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+		}	
+		
+		#footer .footer_izquierdo .datos_contacto,
+		#footer .footer_derecho .icon_contactos .otros_contactos {
+			font-size: 12px;
+			line-height: 2;
+		}
+
+		#footer .footer_izquierdo,
+		#footer .footer_derecho {
+			max-width: 100%;
+			margin-left: 0;
+			margin-bottom: 5px;
+			align-items: left;
+		}
+
+	
+
 	}
 
 
