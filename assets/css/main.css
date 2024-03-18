@@ -3081,14 +3081,15 @@ input, select, textarea {
 		background-color: black;
 		color: white;
 		width: 100%;
-		padding: 10px 20px; /* Ajusta el espaciado interior según sea necesario */
-		box-sizing: border-box; /* Incluye el padding en el ancho total */
+		padding: 10px 20px; 
+		box-sizing: border-box;
 		position: fixed;
 		top: 0;
 		width: 100%;
 		z-index: 1000;
-		text-align: right;
 		opacity: 70%;
+		display: flex;
+		padding-right: 20px;
 	}
 
 	#menu-simple ul {
@@ -3138,6 +3139,12 @@ input, select, textarea {
 		}
 
 		*/
+		@media screen and (max-width: 480px) {
+
+			
+
+		}
+
 
 /* Intro */
 
@@ -3254,6 +3261,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			
+
 			#intro {
 				align-items: center;
 				color: #ffffff;
@@ -3263,7 +3272,7 @@ input, select, textarea {
 				margin: 5rem 0 0 3rem;
 				padding: 8rem 4rem 1rem 1rem ;
 				width: 100%;
-				min-height: 70vh;
+				min-height: 80vh;
 			}
 		
 			#intro .texto .texto1{
@@ -3284,6 +3293,7 @@ input, select, textarea {
 				padding: 0;
 				margin-bottom: 2rem;
 			}
+
 		}
 
 		#intro input[type="submit"],
@@ -3895,7 +3905,7 @@ input, select, textarea {
 			align-items: left;
 		}
 
-	
+		
 
 	}
 
