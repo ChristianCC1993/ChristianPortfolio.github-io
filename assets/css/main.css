@@ -3252,7 +3252,7 @@ input, select, textarea {
 				}
 		}
 
-		@media screen and (max-width: 450px) {
+		@media screen and (max-width: 480px) {
 
 			#intro {
 				align-items: center;
@@ -3423,7 +3423,7 @@ input, select, textarea {
 			outline: none;
 		}
 
-		@media screen and (max-width: 450px) {
+		@media screen and (max-width: 480px) {
 
 			#main {
 				align-items: center;
@@ -3607,7 +3607,7 @@ input, select, textarea {
 			color: rgb(42, 165, 73);
 		}
 
-		@media screen and (max-width: 450px) {
+		@media screen and (max-width: 480px) {
 	
 			#main .sobre_mi {
 				align-items: center;
@@ -3873,7 +3873,7 @@ input, select, textarea {
 		text-align: left;
 	}
 
-	@media screen and (max-width: 450px) {
+	@media screen and (max-width: 480px) {
 		#footer {
 			margin: 0;
 		}		
